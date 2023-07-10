@@ -1,0 +1,10 @@
+[agent]
+
+[rl]
+INIT_Q_VALUES = -10000.0
+SARSA_N = 60
+GAMMA = 0.99
+ALPHA = 0.01
+EPSILON = 0.01
+MULTI_POLICY = false
+# MULTI_POLICY = true

@@ -1,0 +1,14 @@
+[package]
+name = "rusty-go"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.10.5"
+strum = "0.24"
+rand = "0.8.5"
+lazy_static = "*"
+toml = "*"
+serde = { version = "1.0", features = ["derive"] }
